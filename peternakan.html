@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peternakan Simekar</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Reset dan Gaya Umum */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header dengan Navigasi */
+        header {
+            background: #27ae60;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            color: white; /* Warna putih untuk "Peternakan Simekar" */
+        }
+
+        nav {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Kontainer Utama */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        /* Gaya Gambar */
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Gaya Artikel */
+        article {
+            display: grid;
+            gap: 20px;
+        }
+
+        section {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #27ae60;
+        }
+
+        footer p {
+            color: white; /* Warna putih untuk teks copyright di footer */
+            font-weight: bold;
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            main {
+                width: 90%;
+            }
+
+            nav {
+                position: static;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Peternakan Simekar</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tentang.html">Tentang</a>
+            <a href="https://wa.me/6287764507609">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h2>1. Ternak Domba: Kualitas dan Produktivitas Unggul</h2>
+                <img src="domba.jpg" alt="Ternak Domba">
+                <p>Peternakan Simekar memiliki kandang domba yang dirancang dengan sistem pemeliharaan intensif. Jenis domba yang dibudidayakan meliputi domba Garut dan domba Texel.</p>
+            </section>
+
+            <section>
+                <h2>2. Ternak Ayam: Fokus pada Ayam Pedaging dan Petelur</h2>
+                <img src="ayam.jpg" alt="Ternak Ayam">
+                <p>Sektor unggas di Simekar meliputi peternakan ayam pedaging dan ayam petelur. Ayam broiler dan ayam petelur unggulan dibudidayakan untuk memenuhi permintaan pasar.</p>
+            </section>
+
+            <section>
+                <h2>3. Ternak Bebek: Menghasilkan Daging dan Telur Berkualitas</h2>
+                <img src="bebek.jpg" alt="Ternak Bebek">
+                <p>Peternakan bebek Simekar berkembang pesat dengan jenis bebek Peking dan Mojosari yang memiliki kualitas daging dan produksi telur yang tinggi.</p>
+            </section>
+
+            <section>
+                <h2>4. Perikanan: Budidaya Ikan Air Tawar</h2>
+                <img src="lele.jpg" alt="Budidaya Ikan">
+                <p>Unit perikanan Simekar membudidayakan ikan nila, lele, dan gurame dengan sistem bioflok yang modern.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Peternakan Simekar - Semua Hak Dilindungi</p>
+    </footer>
+
+</body>
+</html>
